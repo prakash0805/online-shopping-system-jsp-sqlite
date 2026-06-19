@@ -161,6 +161,24 @@ Project Outcome
 
 This project demonstrates the development of a complete online shopping system using JSP and SQLite. It provides practical experience in database connectivity, session management, CRUD operations, dynamic web page generation, and user interface design.
 
+## Project Screenshots
+
+### Login Page
+![Login](screenshots/login-page.png)
+
+### Products Page
+![Products](screenshots/products-page.png)
+
+### Shopping Cart
+![Cart](screenshots/cart-page.png)
+
+### Wishlist
+![Wishlist](screenshots/wishlist-page.png)
+
+### Checkout
+![Checkout](screenshots/checkout-page.png)
+
+
 Developed By
 
 Prakashraj V
