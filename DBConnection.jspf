@@ -1,0 +1,18 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<meta charset="UTF-8">
+<%@ page import="java.sql.*" %>
+
+<%
+Connection con = null;
+
+try {
+    Class.forName("org.sqlite.JDBC");
+
+    String dbPath = application.getRealPath("/") + "database/shopping.db";
+
+    con = DriverManager.getConnection("jdbc:sqlite:" + dbPath);
+
+} catch(Exception e) {
+    out.println("Database Connection Error : " + e.getMessage());
+}
+%>
